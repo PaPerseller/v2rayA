@@ -11,6 +11,12 @@ on:
       - "gui/**"
       - ".github/workflows/*.yml"
 
+  workflow_dispatch:
+    inputs:
+      tag:
+        type: string
+        required: true
+
 jobs:
   Build_v2rayA_Web:
     runs-on: ubuntu-22.04
