@@ -128,3 +128,5 @@ replace github.com/daeuniverse/softwind => github.com/daeuniverse/softwind v0.0.
 replace github.com/sagernet/sing => github.com/sagernet/sing v0.2.17
 
 replace github.com/sagernet/sing-tun => github.com/sagernet/sing-tun v0.1.20
+
+replace github.com/sagernet/gvisor => github.com/sagernet/gvisor v0.0.0-20230930141345-5fef6f2e17ab
