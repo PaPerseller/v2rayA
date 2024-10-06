@@ -1,16 +1,6 @@
 name: Test Source of v2rayA
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "**/*.go"
-      - "go.mod"
-      - "go.sum"
-      - "gui/**"
-      - ".github/workflows/*.yml"
-
   workflow_dispatch:
     inputs:
       tag:

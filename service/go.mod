@@ -3,8 +3,8 @@ module github.com/v2rayA/v2rayA
 go 1.23.0
 
 require (
-	github.com/daeuniverse/outbound v0.0.0-20240928042419-b1e258193113
-	github.com/daeuniverse/softwind v0.0.0-20240416160203-6daa40f6b7a5
+	github.com/daeuniverse/outbound v0.0.0-20230819151251-3ce60883d337
+	github.com/daeuniverse/softwind v0.0.0-20230903121035-afc8c5d27a4c
 )
 
 require (
@@ -25,8 +25,8 @@ require (
 	github.com/muhammadmuzzammil1998/jsonc v1.0.0
 	github.com/pkg/errors v0.9.1
 	github.com/sagernet/gvisor v0.0.0-20240428053021-e691de28565f
-	github.com/sagernet/sing v0.4.3
-	github.com/sagernet/sing-tun v0.3.3
+	github.com/sagernet/sing v0.2.17
+	github.com/sagernet/sing-tun v0.1.20
 	github.com/shadowsocks/go-shadowsocks2 v0.1.5
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/stevenroose/gonfig v0.1.5
@@ -47,14 +47,10 @@ require (
 )
 
 require (
-	github.com/awnumar/fastrand v0.0.0-20210315215012-30ee0990fa2d // indirect
-	github.com/awnumar/memcall v0.4.0 // indirect
-	github.com/awnumar/memguard v0.22.5 // indirect
 	github.com/bytedance/sonic v1.12.3 // indirect
 	github.com/bytedance/sonic/loader v0.2.0 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
-	github.com/daeuniverse/quic-go v0.0.0-20240413031024-943f218e0810 // indirect
 	github.com/dgryski/go-camellia v0.0.0-20191119043421-69a8a13fb23d // indirect
 	github.com/dgryski/go-idea v0.0.0-20170306091226-d2fb45a411fb // indirect
 	github.com/dgryski/go-rc2 v0.0.0-20150621095337-8a9021637152 // indirect
@@ -70,6 +66,7 @@ require (
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/gocarina/gocsv v0.0.0-20240520201108-78e41c74b4b1 // indirect
 	github.com/goccy/go-json v0.10.3 // indirect
+	github.com/golang/mock v1.6.0 // indirect
 	github.com/google/btree v1.1.3 // indirect
 	github.com/google/pprof v0.0.0-20241001023024-f4c0cfd0cf1d // indirect
 	github.com/google/uuid v1.6.0 // indirect
@@ -79,6 +76,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/mzz2017/disk-bloom v1.0.1 // indirect
+	github.com/mzz2017/quic-go v0.0.0-20230902042923-a727c1c479d4 // indirect
 	github.com/onsi/ginkgo/v2 v2.20.2 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
@@ -86,7 +84,9 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
+	github.com/sagernet/go-tun2socks v1.16.12-0.20220818015926-16cb67876a61 // indirect
 	github.com/sagernet/netlink v0.0.0-20240916134442-83396419aa8b // indirect
+	github.com/scjalliance/comshim v0.0.0-20230315213746-5e51f40bd3b9 // indirect
 	github.com/shiena/ansicolor v0.0.0-20230509054315-a9deabde6e02 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
@@ -97,7 +97,6 @@ require (
 	github.com/vishvananda/netns v0.0.4 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	gitlab.com/yawning/chacha20.git v0.0.0-20230427033715-7877545b1b37 // indirect
-	go.uber.org/mock v0.4.0 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
 	golang.org/x/arch v0.11.0 // indirect
 	golang.org/x/crypto v0.28.0 // indirect
