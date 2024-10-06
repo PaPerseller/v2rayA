@@ -198,8 +198,8 @@ github.com/sagernet/gvisor v0.0.0-20240428053021-e691de28565f/go.mod h1:KXmw+ouS
 github.com/sagernet/netlink v0.0.0-20240916134442-83396419aa8b h1:ppoda3bl004POPsp3ut7V+4Mn6+DUbTxyxpB0BjpaIk=
 github.com/sagernet/netlink v0.0.0-20240916134442-83396419aa8b/go.mod h1:xLnfdiJbSp8rNqYEdIW/6eDO4mVoogml14Bh2hSiFpM=
 github.com/sagernet/sing v0.0.0-20220817130738-ce854cda8522/go.mod h1:QVsS5L/ZA2Q5UhQwLrn0Trw+msNd/NPGEhBKR/ioWiY=
-github.com/sagernet/sing v0.2.17 h1:vMPKb3MV0Aa5ws4dCJkRI8XEjrsUcDn810czd0FwmzI=
-github.com/sagernet/sing v0.2.17/go.mod h1:OL6k2F0vHmEzXz2KW19qQzu172FDgSbUSODylighuVo=
+github.com/sagernet/sing v0.3.8 h1:gm4JKalPhydMYX2zFOTnnd4TXtM/16WFRqSjMepYQQk=
+github.com/sagernet/sing v0.3.8/go.mod h1:+60H3Cm91RnL9dpVGWDPHt0zTQImO9Vfqt9a4rSambI=
 github.com/sagernet/sing-tun v0.1.20 h1:vYWo/w6fkKc8I1WP/IB8eBWZVsGIC6eoEoNR6XqEDlY=
 github.com/sagernet/sing-tun v0.1.20/go.mod h1:6kkPL/u9tWcLFfu55VbwMDnO++17cUihSmImkZjdZro=
 github.com/scjalliance/comshim v0.0.0-20230315213746-5e51f40bd3b9 h1:rc/CcqLH3lh8n+csdOuDfP+NuykE0U6AeYSJJHKDgSg=
