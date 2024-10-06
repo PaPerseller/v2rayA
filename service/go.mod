@@ -3,8 +3,8 @@ module github.com/v2rayA/v2rayA
 go 1.23.0
 
 require (
-	github.com/daeuniverse/outbound v0.0.0-20230819151251-3ce60883d337
-	github.com/daeuniverse/softwind v0.0.0-20230903121035-afc8c5d27a4c
+	github.com/daeuniverse/outbound v0.0.0-20240928042419-b1e258193113
+	github.com/daeuniverse/softwind v0.0.0-20240416160203-6daa40f6b7a5
 )
 
 require (
@@ -25,8 +25,8 @@ require (
 	github.com/muhammadmuzzammil1998/jsonc v1.0.0
 	github.com/pkg/errors v0.9.1
 	github.com/sagernet/gvisor v0.0.0-20240428053021-e691de28565f
-	github.com/sagernet/sing v0.3.8
-	github.com/sagernet/sing-tun v0.1.20
+	github.com/sagernet/sing v0.4.3
+	github.com/sagernet/sing-tun v0.3.3
 	github.com/shadowsocks/go-shadowsocks2 v0.1.5
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/stevenroose/gonfig v0.1.5
@@ -86,7 +86,7 @@ require (
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	github.com/sagernet/go-tun2socks v1.16.12-0.20220818015926-16cb67876a61 // indirect
 	github.com/sagernet/netlink v0.0.0-20240916134442-83396419aa8b // indirect
-	github.com/scjalliance/comshim v0.0.0-20230315213746-5e51f40bd3b9 // indirect
+	github.com/scjalliance/comshim v0.0.0-20240712181150-e070933cb68e // indirect
 	github.com/shiena/ansicolor v0.0.0-20230509054315-a9deabde6e02 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
@@ -120,3 +120,11 @@ require (
 // replace github.com/daeuniverse/softwind => ../../softwind
 
 replace github.com/v2fly/v2ray-core/v5 => github.com/v2rayA/v2ray-core/v5 v5.0.0-20230812170925-960565fa0686
+
+replace github.com/daeuniverse/outbound => github.com/daeuniverse/outbound v0.0.0-20230819151251-3ce60883d337
+
+replace github.com/daeuniverse/softwind => github.com/daeuniverse/softwind v0.0.0-20230903121035-afc8c5d27a4c
+
+replace github.com/sagernet/sing => github.com/sagernet/sing v0.2.17
+
+replace github.com/sagernet/sing-tun => github.com/sagernet/sing-tun v0.1.20
