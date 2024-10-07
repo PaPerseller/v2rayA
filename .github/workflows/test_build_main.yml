@@ -9,7 +9,7 @@ on:
 
 jobs:
   Build_v2rayA_Web:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
       with:
@@ -73,7 +73,7 @@ jobs:
       shell: pwsh
       run: |
         New-Item -ItemType Directory -Path v2raya_binaries
-        foreach ($arch in @('amd64', 'arm64')) {
+        foreach ($arch in @('amd64')) {
           $env:GOARCH = $arch
           $filename = $((Get-Content ./install/friendly-filenames.json | ConvertFrom-Json)."linux-$arch")."friendlyName"
           Set-Location -Path service

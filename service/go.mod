@@ -1,6 +1,6 @@
 module github.com/v2rayA/v2rayA
 
-go 1.23.0
+go 1.23.2
 
 require (
 	github.com/daeuniverse/outbound v0.0.0-20240928042419-b1e258193113
