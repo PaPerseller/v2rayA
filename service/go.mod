@@ -8,7 +8,7 @@ require (
 )
 
 require (
-	github.com/adrg/xdg v0.5.0
+	github.com/adrg/xdg v0.5.1
 	github.com/beevik/ntp v1.4.3
 	github.com/devfeel/mapper v0.7.14
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
@@ -18,13 +18,13 @@ require (
 	github.com/google/gopacket v1.1.19
 	github.com/gorilla/websocket v1.5.3
 	github.com/json-iterator/go v1.1.12
-	github.com/matoous/go-nanoid v1.5.0
+	github.com/matoous/go-nanoid v1.5.1
 	github.com/miekg/dns v1.1.62
 	github.com/modern-go/reflect2 v1.0.2
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
 	github.com/muhammadmuzzammil1998/jsonc v1.0.0
 	github.com/pkg/errors v0.9.1
-	github.com/sagernet/gvisor v0.0.0-20240428053021-e691de28565f
+	github.com/sagernet/gvisor v0.0.0-20241021032506-a4324256e4a3
 	github.com/sagernet/sing v0.4.3
 	github.com/sagernet/sing-tun v0.3.3
 	github.com/shadowsocks/go-shadowsocks2 v0.1.5
@@ -32,7 +32,7 @@ require (
 	github.com/stevenroose/gonfig v0.1.5
 	github.com/tidwall/gjson v1.18.0
 	github.com/tidwall/sjson v1.2.5
-	github.com/v2fly/v2ray-core/v5 v5.20.0
+	github.com/v2fly/v2ray-core/v5 v5.21.0
 	github.com/v2rayA/RoutingA v1.0.2
 	github.com/v2rayA/beego/v2 v2.0.7
 	github.com/v2rayA/shadowsocksR v1.0.4
@@ -43,12 +43,12 @@ require (
 	golang.org/x/net v0.30.0
 	golang.org/x/sys v0.26.0
 	google.golang.org/grpc v1.67.1
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.35.1
 )
 
 require (
 	github.com/bytedance/sonic v1.12.3 // indirect
-	github.com/bytedance/sonic/loader v0.2.0 // indirect
+	github.com/bytedance/sonic/loader v0.2.1 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/dgryski/go-camellia v0.0.0-20191119043421-69a8a13fb23d // indirect
@@ -57,7 +57,7 @@ require (
 	github.com/djherbis/times v1.6.0 // indirect
 	github.com/eknkc/basex v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
-	github.com/gabriel-vasile/mimetype v1.4.5 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.6 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
@@ -68,7 +68,7 @@ require (
 	github.com/goccy/go-json v0.10.3 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/google/btree v1.1.3 // indirect
-	github.com/google/pprof v0.0.0-20241001023024-f4c0cfd0cf1d // indirect
+	github.com/google/pprof v0.0.0-20241023014458-598669927662 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.8 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
@@ -80,7 +80,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.20.2 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
-	github.com/pires/go-proxyproto v0.7.0 // indirect
+	github.com/pires/go-proxyproto v0.8.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
@@ -100,13 +100,13 @@ require (
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
 	golang.org/x/arch v0.11.0 // indirect
 	golang.org/x/crypto v0.28.0 // indirect
-	golang.org/x/exp v0.0.0-20241004190924-225e2abe05e6 // indirect
+	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c // indirect
 	golang.org/x/mod v0.21.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/text v0.19.0 // indirect
 	golang.org/x/time v0.7.0 // indirect
 	golang.org/x/tools v0.26.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240930140551-af27646dc61f // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20241021214115-324edc3d5d38 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
