@@ -12,6 +12,8 @@ on:
       - "gui/**"
       - ".github/workflows/*.yml"
 
+  workflow_dispatch:
+
 jobs:
   Build_v2rayA_Web:
     runs-on: ubuntu-latest
