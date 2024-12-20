@@ -12,10 +12,17 @@ require (
 	github.com/beevik/ntp v1.4.3
 	github.com/devfeel/mapper v0.7.14
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
+<<<<<<< HEAD
 	github.com/gin-contrib/cors v1.7.2
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-leo/slicex v1.0.14
 	github.com/golang/protobuf v1.5.4
+=======
+	github.com/gin-contrib/cors v1.6.0
+	github.com/gin-gonic/gin v1.9.1
+	github.com/go-leo/slicex v1.0.14
+	github.com/golang/protobuf v1.5.3
+>>>>>>> origin/main
 	github.com/google/gopacket v1.1.19
 	github.com/gorilla/websocket v1.5.3
 	github.com/json-iterator/go v1.1.12
@@ -39,12 +46,21 @@ require (
 	github.com/v2rayA/shadowsocksR v1.0.4
 	github.com/v2rayA/v2ray-lib v0.0.0-20230812093950-85439332d5ce
 	github.com/v2rayA/v2rayA-lib4 v0.0.0-20230812094818-595f87cb2a49
+<<<<<<< HEAD
 	github.com/vearutop/statigz v1.4.3
 	go.etcd.io/bbolt v1.3.11
 	golang.org/x/net v0.32.0
 	golang.org/x/sys v0.28.0
 	google.golang.org/grpc v1.68.1
 	google.golang.org/protobuf v1.35.2
+=======
+	github.com/vearutop/statigz v1.1.7
+	go.etcd.io/bbolt v1.3.8
+	golang.org/x/net v0.25.0
+	golang.org/x/sys v0.28.0
+	google.golang.org/grpc v1.57.1
+	google.golang.org/protobuf v1.33.0
+>>>>>>> origin/main
 )
 
 require (
@@ -98,6 +114,7 @@ require (
 	github.com/vishvananda/netns v0.0.5 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	gitlab.com/yawning/chacha20.git v0.0.0-20230427033715-7877545b1b37 // indirect
+<<<<<<< HEAD
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
 	golang.org/x/arch v0.12.0 // indirect
 	golang.org/x/crypto v0.30.0 // indirect
@@ -108,6 +125,18 @@ require (
 	golang.org/x/time v0.8.0 // indirect
 	golang.org/x/tools v0.28.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241202173237-19429a94021a // indirect
+=======
+	go4.org/netipx v0.0.0-20230728184502-ec4c8b891b28 // indirect
+	golang.org/x/arch v0.7.0 // indirect
+	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/time v0.3.0 // indirect
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230807174057-1744710a1577 // indirect
+>>>>>>> origin/main
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
