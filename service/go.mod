@@ -1,6 +1,6 @@
 module github.com/v2rayA/v2rayA
 
-go 1.23.2
+go 1.23.4
 
 require (
 	github.com/daeuniverse/outbound v0.0.0-20241203160254-b61700645a6c
@@ -12,17 +12,10 @@ require (
 	github.com/beevik/ntp v1.4.3
 	github.com/devfeel/mapper v0.7.14
 	github.com/dgrijalva/jwt-go/v4 v4.0.0-preview1
-<<<<<<< HEAD
 	github.com/gin-contrib/cors v1.7.2
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-leo/slicex v1.0.14
 	github.com/golang/protobuf v1.5.4
-=======
-	github.com/gin-contrib/cors v1.6.0
-	github.com/gin-gonic/gin v1.9.1
-	github.com/go-leo/slicex v1.0.14
-	github.com/golang/protobuf v1.5.3
->>>>>>> origin/main
 	github.com/google/gopacket v1.1.19
 	github.com/gorilla/websocket v1.5.3
 	github.com/json-iterator/go v1.1.12
@@ -34,37 +27,28 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/sagernet/gvisor v0.0.0-20241123041152-536d05261cff
 	github.com/sagernet/sing v0.5.1
-	github.com/sagernet/sing-tun v0.4.2
+	github.com/sagernet/sing-tun v0.4.5
 	github.com/shadowsocks/go-shadowsocks2 v0.1.5
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/stevenroose/gonfig v0.1.5
 	github.com/tidwall/gjson v1.18.0
 	github.com/tidwall/sjson v1.2.5
-	github.com/v2fly/v2ray-core/v5 v5.22.0
+	github.com/v2fly/v2ray-core/v5 v5.23.0
 	github.com/v2rayA/RoutingA v1.0.2
 	github.com/v2rayA/beego/v2 v2.0.7
 	github.com/v2rayA/shadowsocksR v1.0.4
 	github.com/v2rayA/v2ray-lib v0.0.0-20230812093950-85439332d5ce
 	github.com/v2rayA/v2rayA-lib4 v0.0.0-20230812094818-595f87cb2a49
-<<<<<<< HEAD
 	github.com/vearutop/statigz v1.4.3
 	go.etcd.io/bbolt v1.3.11
-	golang.org/x/net v0.32.0
+	golang.org/x/net v0.33.0
 	golang.org/x/sys v0.28.0
-	google.golang.org/grpc v1.68.1
-	google.golang.org/protobuf v1.35.2
-=======
-	github.com/vearutop/statigz v1.1.7
-	go.etcd.io/bbolt v1.3.8
-	golang.org/x/net v0.25.0
-	golang.org/x/sys v0.28.0
-	google.golang.org/grpc v1.57.1
-	google.golang.org/protobuf v1.33.0
->>>>>>> origin/main
+	google.golang.org/grpc v1.69.2
+	google.golang.org/protobuf v1.36.0
 )
 
 require (
-	github.com/bytedance/sonic v1.12.5 // indirect
+	github.com/bytedance/sonic v1.12.6 // indirect
 	github.com/bytedance/sonic/loader v0.2.1 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
@@ -82,10 +66,10 @@ require (
 	github.com/go-playground/validator/v10 v10.23.0 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/gocarina/gocsv v0.0.0-20240520201108-78e41c74b4b1 // indirect
-	github.com/goccy/go-json v0.10.3 // indirect
+	github.com/goccy/go-json v0.10.4 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/google/btree v1.1.3 // indirect
-	github.com/google/pprof v0.0.0-20241203143554-1e3fdc7de467 // indirect
+	github.com/google/pprof v0.0.0-20241210010833-40e02aabc2ad // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.9 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
@@ -94,7 +78,7 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/mzz2017/disk-bloom v1.0.1 // indirect
 	github.com/mzz2017/quic-go v0.0.0-20230902042923-a727c1c479d4 // indirect
-	github.com/onsi/ginkgo/v2 v2.22.0 // indirect
+	github.com/onsi/ginkgo/v2 v2.22.1 // indirect
 	github.com/pelletier/go-toml v1.9.5 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/pires/go-proxyproto v0.8.0 // indirect
@@ -114,29 +98,16 @@ require (
 	github.com/vishvananda/netns v0.0.5 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	gitlab.com/yawning/chacha20.git v0.0.0-20230427033715-7877545b1b37 // indirect
-<<<<<<< HEAD
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
 	golang.org/x/arch v0.12.0 // indirect
-	golang.org/x/crypto v0.30.0 // indirect
-	golang.org/x/exp v0.0.0-20241204233417-43b7b7cde48d // indirect
+	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/exp v0.0.0-20241217172543-b2144cdd0a67 // indirect
 	golang.org/x/mod v0.22.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
 	golang.org/x/tools v0.28.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20241202173237-19429a94021a // indirect
-=======
-	go4.org/netipx v0.0.0-20230728184502-ec4c8b891b28 // indirect
-	golang.org/x/arch v0.7.0 // indirect
-	golang.org/x/crypto v0.31.0 // indirect
-	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df // indirect
-	golang.org/x/mod v0.17.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
-	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20230807174057-1744710a1577 // indirect
->>>>>>> origin/main
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20241219192143-6b3ec007d9bb // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
