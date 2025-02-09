@@ -9,8 +9,8 @@
     "lint": "vue-cli-service lint"
   },
   "resolutions": {
-    "@achrinza/node-ipc": "^10",
-    "@achrinza/event-pubsub": "^5"
+    "@achrinza/node-ipc": "^10.1.11",
+    "@achrinza/event-pubsub": "^5.0.3"
   },
   "dependencies": {
     "@achrinza/node-ipc": "^10.1.11",
