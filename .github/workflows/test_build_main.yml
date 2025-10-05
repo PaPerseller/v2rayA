@@ -1,16 +1,16 @@
 name: Test Source of v2rayA
 
 on:
-  push:
-    branches:
-      - main
-      - dependabot/*
-    paths:
-      - "**/*.go"
-      - "go.mod"
-      - "go.sum"
-      - "gui/**"
-      - ".github/workflows/*.yml"
+  #push:
+    #branches:
+      #- main
+      #- dependabot/*
+    #paths:
+      #- "**/*.go"
+      #- "go.mod"
+      #- "go.sum"
+      #- "gui/**"
+      #- ".github/workflows/*.yml"
 
   workflow_dispatch:
 
