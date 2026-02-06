@@ -136,4 +136,4 @@ replace github.com/v2fly/v2ray-core/v5 => github.com/v2rayA/v2ray-core/v5 v5.0.0
 
 //replace github.com/sagernet/sing-tun => github.com/sagernet/sing-tun v0.1.20
 
-//replace github.com/sagernet/gvisor => github.com/sagernet/gvisor v0.0.0-20230930141345-5fef6f2e17ab
+replace github.com/sagernet/gvisor => github.com/sagernet/gvisor v0.0.0-20241123041152-536d05261cff
